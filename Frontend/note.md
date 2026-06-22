@@ -18,3 +18,19 @@ Add|Remove methods....push(),pop(),shift(),unshift(),splice(),/
 SEARCHING...includes(),indexOf(),find(),findIndexOf().../IterationMethods..forEach(),map(),filter()\
 TRANSFORMAtin methods..reduce()(used to add everything to a sum),sort()(a.sort((a,b)=>a-b)
 console.log(a)),reverse().
+\**virtual DOM**\
+1)virtual dom  is a javascript representaion  of real dom that react uses to track ui changes efficiently.\
+2) React does not Update real DOM directly\
+3) instead it updt viratual dom first.\
+4)Diffing...comapring old and new DOM \
+5)reconcilation...is process of updating real DOM.\
+**JSX(JAVA SCRIPT EXTENSIBLE MARKUP LANGUAgE)**\
+1) jsx is  a syntax extension for javascript that allowing us to write HTML like code inside js\
+2)JSX is no html\
+3)It only looks like html ,behind the screen React converts JSX into js Using Babels(JavaScript Compiler)\
+4)js expressions can be used in thisby using{}.\
+**JSX RULES**\
+1)One parent Element.\
+2)className instead of class.\
+3)JavaScript inside {}.\
+...
